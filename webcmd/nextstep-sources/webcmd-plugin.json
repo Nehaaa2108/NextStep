@@ -1,0 +1,10 @@
+{
+  "name": "nextstep-sources",
+  "version": "0.1.0",
+  "description": "NextStep student opportunity retrieval adapters",
+  "webcmd": ">=0.7.4",
+  "author": {
+    "name": "NextStep-P2",
+    "handle": "nextstep-p2"
+  }
+}
