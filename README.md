@@ -1,0 +1,23 @@
+# NextStep
+
+A WebCMD-powered opportunity discovery platform.
+
+Architecture:
+
+Person 2:
+WebCMD retrieval layer
+
+↓
+
+Person 3:
+Backend intelligence layer
+
+↓
+
+Person 1:
+Frontend experience layer
+
+
+Current status:
+
+Person 1 frontend foundation integrated.
