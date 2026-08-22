@@ -21,7 +21,7 @@ const PROVIDER_ENV = process.env['PROVIDER'] ?? 'mock';
 let provider: WebEvidenceProvider;
 
 if (PROVIDER_ENV === 'webcmd') {
-  provider = new WebCmdProvider();
+  provider = new WebCmdProvider({ useFixture: process.env['OFFLINE'] === 'true' });
 } else {
   provider = new MockWebEvidenceProvider('success');
 }
