@@ -1,0 +1,12 @@
+{
+  "source": "webcmd",
+  "command": "webcmd search --category grant --query 'nonexistent_opportunity_query_xyz_999'",
+  "strategy": "dom-extract-semantic",
+  "browser": "chromium-headless",
+  "retrievedAt": "2026-08-22T10:10:00.000Z",
+  "results": [],
+  "warnings": [
+    "Zero results matched the given query filters"
+  ],
+  "rawRef": "webcmd-run-empty-001"
+}

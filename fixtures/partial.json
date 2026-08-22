@@ -1,0 +1,52 @@
+{
+  "source": "webcmd",
+  "command": "webcmd search --category internship --query 'frontend student'",
+  "strategy": "dom-extract-semantic",
+  "browser": "chromium-headless",
+  "retrievedAt": "2026-08-22T10:05:00.000Z",
+  "results": [
+    {
+      "id": "raw-item-201",
+      "name": "Frontend Software Engineering Intern",
+      "company_name": "CloudScale Web Systems",
+      "apply_url": "https://fictional-radar.example/jobs/cloudscale-fe-2026",
+      "category": "internship",
+      "location": "Seattle, WA",
+      "remote": true,
+      "description": "Building interactive design systems and developer tooling.",
+      "skills": ["TypeScript", "React", "CSS"],
+      "eligibility": null,
+      "deadline": null,
+      "posted_date": "2026-08-18T14:00:00Z",
+      "stipend": null,
+      "duration": "Summer 2026",
+      "raw": {
+        "source_tag": "crawler_partial"
+      }
+    },
+    {
+      "id": "raw-item-202",
+      "job_title": "Open Source Tooling Grant",
+      "organization": null,
+      "link": "https://fictional-radar.example/grants/oss-dev-2026",
+      "type": "grant",
+      "location": null,
+      "remote": null,
+      "description": "Grant funding for student maintainers of popular developer CLI tools.",
+      "skills": ["Rust", "Node.js"],
+      "eligibility": null,
+      "deadline": null,
+      "posted_date": null,
+      "salary": "$5,000 one-time grant",
+      "duration": null,
+      "raw": {
+        "grant_round": "Q3 2026"
+      }
+    }
+  ],
+  "warnings": [
+    "Search pagination limit reached after page 1",
+    "2 listings had incomplete deadline metadata"
+  ],
+  "rawRef": "webcmd-run-part-310"
+}

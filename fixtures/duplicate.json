@@ -1,0 +1,49 @@
+{
+  "source": "webcmd",
+  "command": "webcmd search --category hackathon --query 'autonomous agents'",
+  "strategy": "dom-extract-semantic",
+  "browser": "chromium-headless",
+  "retrievedAt": "2026-08-22T10:15:00.000Z",
+  "results": [
+    {
+      "id": "raw-dup-1",
+      "title": "Autonomous Agent Sprint 2026",
+      "organization": "Open Robotics Consortium",
+      "apply_url": "https://fictional-radar.example/hackathons/agent-sprint",
+      "category": "hackathon",
+      "location": "Remote",
+      "remote": true,
+      "description": "48-hour virtual hackathon building autonomous browser and CLI agents.",
+      "skills": ["Python", "TypeScript"],
+      "eligibility": "University students worldwide",
+      "deadline": "2026-10-15T23:59:59Z",
+      "posted_date": "2026-08-01T00:00:00Z",
+      "stipend": "$25,000 in total prizes",
+      "duration": "48 hours",
+      "raw": {
+        "source_feed": "feed_alpha"
+      }
+    },
+    {
+      "id": "raw-dup-2",
+      "name": "  Autonomous Agent Sprint 2026  ",
+      "company_name": "Open Robotics Consortium",
+      "link": "https://fictional-radar.example/hackathons/agent-sprint",
+      "opportunity_type": "hackathon",
+      "location": "Remote",
+      "is_remote": "true",
+      "details": "48-hour virtual hackathon building autonomous browser and CLI agents.",
+      "technologies": "Python, TypeScript",
+      "criteria": "University students worldwide",
+      "due_date": "2026-10-15T23:59:59Z",
+      "posted_at": "2026-08-01T00:00:00Z",
+      "prize": "$25,000 in total prizes",
+      "program_length": "48 hours",
+      "raw": {
+        "source_feed": "feed_beta"
+      }
+    }
+  ],
+  "warnings": [],
+  "rawRef": "webcmd-run-dup-404"
+}

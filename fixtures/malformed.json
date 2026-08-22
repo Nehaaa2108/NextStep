@@ -1,0 +1,44 @@
+{
+  "source": "webcmd",
+  "command": "webcmd search --raw-dom-scrape",
+  "strategy": "raw-dom-heuristic",
+  "browser": "chromium-headless",
+  "retrievedAt": "2026-08-22T10:20:00.000Z",
+  "results": [
+    {
+      "id": "raw-malformed-1",
+      "raw": {
+        "corrupted_payload": true,
+        "unexpected_data": 12345
+      }
+    },
+    {
+      "id": "raw-malformed-2",
+      "title": "   ",
+      "company": "   ",
+      "url": "   ",
+      "remote": "unknown-string-value",
+      "skills": "not an array or comma list",
+      "raw": {
+        "dom_error": "unmatched selector"
+      }
+    },
+    {
+      "id": "raw-valid-item-3",
+      "job_title": "Verified Student Research Grant",
+      "company": "Future Tech Institute",
+      "apply_url": "https://fictional-radar.example/grants/verified-2026",
+      "category": "grant",
+      "stipend": "$3,000",
+      "deadline": null,
+      "raw": {
+        "status": "valid"
+      }
+    }
+  ],
+  "warnings": [
+    "Parser encountered 1 non-standard element on page",
+    "Unrecognized schema fragment at item 0"
+  ],
+  "rawRef": "webcmd-run-malf-999"
+}
