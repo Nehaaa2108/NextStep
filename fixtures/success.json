@@ -1,0 +1,70 @@
+{
+  "source": "webcmd",
+  "command": "webcmd search --category all --query 'tech student opportunities 2026'",
+  "strategy": "dom-extract-semantic",
+  "browser": "chromium-headless",
+  "retrievedAt": "2026-08-22T10:00:00.000Z",
+  "results": [
+    {
+      "id": "raw-item-101",
+      "job_title": "Autonomous Agent Sprint 2026",
+      "organization": "Open Robotics Consortium",
+      "apply_url": "https://fictional-radar.example/hackathons/agent-sprint",
+      "category": "hackathon",
+      "location": "Remote",
+      "remote": true,
+      "description": "48-hour virtual hackathon building autonomous browser and CLI agents.",
+      "skills": ["Python", "TypeScript", "Browser Automation"],
+      "eligibility": "Open to university students worldwide",
+      "deadline": "2026-10-15T23:59:59Z",
+      "posted_date": "2026-08-01T00:00:00Z",
+      "stipend": "$25,000 in total prizes",
+      "duration": "48 hours",
+      "raw": {
+        "platform_id": "hack-441",
+        "track": "AI Systems"
+      }
+    },
+    {
+      "id": "raw-item-102",
+      "title": "AI Engineering Summer Intern",
+      "company": "Apex Neural Labs",
+      "url": "https://fictional-radar.example/careers/intern-ai-2026",
+      "type": "internship",
+      "city": "Boston, MA",
+      "is_remote": "false",
+      "desc": "12-week summer internship developing foundation model evaluation suites.",
+      "technologies": "PyTorch, CUDA, Python",
+      "criteria": "Pursuing BS/MS in Computer Science graduating Dec 2026 or May 2027",
+      "application_deadline": "2026-11-01T17:00:00Z",
+      "date_posted": "2026-08-10T12:00:00Z",
+      "salary": "$52/hour + housing stipend",
+      "program_length": "12 weeks",
+      "raw": {
+        "req_number": "REQ-9921",
+        "department": "Applied Research"
+      }
+    },
+    {
+      "id": "raw-item-103",
+      "opportunity_title": "Undergraduate Quantum Computing Fellowship",
+      "host": "Quantum Research Initiative",
+      "link": "https://fictional-radar.example/fellowships/quantum-2026",
+      "opportunity_type": "fellowship",
+      "place": "Boulder, CO",
+      "remote": "hybrid",
+      "summary": "Academic fellowship for undergraduate researchers investigating quantum simulation algorithms.",
+      "tags": ["Quantum Algorithms", "Linear Algebra", "Qiskit"],
+      "qualification": "Sophomore or Junior undergraduate standing",
+      "due_date": "2026-12-15T23:59:59Z",
+      "posted_at": "2026-08-15T09:30:00Z",
+      "compensation": "$8,000 research stipend",
+      "duration": "6 months",
+      "raw": {
+        "cohort": "Spring 2027"
+      }
+    }
+  ],
+  "warnings": [],
+  "rawRef": "webcmd-run-succ-892"
+}

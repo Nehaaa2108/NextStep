@@ -1,0 +1,27 @@
+{
+  "name": "opportunity-radar-backend",
+  "version": "0.1.0",
+  "description": "Opportunity Radar - Person 3 Backend Architecture Foundation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "type-check": "tsc --noEmit",
+    "test": "tsc && node --test dist/tests/contracts.test.js dist/tests/fixtures-and-normalization.test.js dist/tests/validation.test.js dist/tests/deduplication.test.js dist/tests/pipeline.test.js dist/tests/filtering.test.js dist/tests/eligibility.test.js dist/tests/scoring.test.js dist/tests/ranking.test.js dist/tests/intelligence-pipeline.test.js dist/tests/orchestration.test.js dist/tests/api.test.js dist/tests/webcmd-provider.test.js dist/tests/source-normalization.test.js",
+    "smoke": "tsc && node dist/scripts/smoke-test-live.js"
+  },
+  "keywords": [
+    "opportunity-radar",
+    "backend",
+    "contracts",
+    "webcmd-provider"
+  ],
+  "author": "Person 3",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
